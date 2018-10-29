@@ -98,13 +98,13 @@
         }
       },
       {
-        "match": "kafka\\.connect\\.source\\..messagesproduced$",
+        "match": "kafka\\.connect\\.source\\..*\\.messagesproduced$",
         "properties": {
           "sparseDataStrategy": "ReplaceWithZero"
         }
       },
       {
-        "match": "kafka\\.connect\\.sink\\..messagesconsumed",
+        "match": "kafka\\.connect\\.sink\\..*\\.messagesconsumed$",
         "properties": {
           "sparseDataStrategy": "ReplaceWithZero"
         }
