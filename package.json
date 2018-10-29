@@ -1,0 +1,34 @@
+{
+  "id" : "metricly.packages.kafka",
+  "version" : "0.1.0",
+  "manifest" : {
+    "name" : "Metricly Kafka Package",
+    "description" : "A set of Metricly analytics configurations, polices, dashboards, and reports that are used to monitor performance of Kafka.",
+    "author" : {
+      "name" : "Metricly Research",
+      "email" : "research@metricly.com"
+    },
+    "distro" : {
+      "logo" : "http://assets.app.netuitive.com/assets/img/metricly_logo.png",
+      "download" : ""
+    },
+    "compatibility" : [ "INFRASTRUCTURE:Linux" ],
+    "tags" : [ ],
+    "checksum" : null
+  },
+  "policies" : [ ],
+  "analyticConfigurations" : [ {
+    "data" : {
+      "file" : "analyticConfigurations/ace-kafka.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "analyticConfigurations/metric_meta-kafka.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ],
+  "dashboards" : [ ]
+}
