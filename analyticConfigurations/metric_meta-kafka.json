@@ -108,6 +108,12 @@
         "properties": {
           "sparseDataStrategy": "ReplaceWithZero"
         }
+      },
+      {
+        "match": "kafka\\.connect\\..*\\.heartbeats$",
+        "properties": {
+          "sparseDataStrategy": "ReplaceWithZero"
+        }
       }
     ],
     "name": "Kafka",

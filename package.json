@@ -1,6 +1,6 @@
 {
   "id": "metricly.packages.kafka",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "manifest": {
     "name": "Metricly Kafka Package",
     "description": "A set of Metricly analytics configurations, polices, dashboards, and reports that are used to monitor performance of Kafka.",
